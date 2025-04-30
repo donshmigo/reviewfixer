@@ -1,0 +1,45 @@
+{
+  "name": "google-review-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:netlify": "./netlify.sh && netlify deploy --prod"
+  },
+  "dependencies": {
+    "@node-rs/bcrypt": "^1.7.3",
+    "@tanstack/react-query": "^5.74.11",
+    "autoprefixer": "^10.4.21",
+    "clsx": "^2.1.0",
+    "firebase": "^11.6.1",
+    "framer-motion": "^11.0.14",
+    "googleapis": "^148.0.0",
+    "jose": "^5.2.3",
+    "jotai": "^2.6.6",
+    "lodash.debounce": "^4.0.8",
+    "next": "^15.3.1",
+    "next-auth": "^4.24.7",
+    "next-themes": "^0.3.0",
+    "openai": "^4.30.0",
+    "postcss": "^8.5.3",
+    "postcss-preset-env": "^10.1.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.41.3",
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
